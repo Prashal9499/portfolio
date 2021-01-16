@@ -3,11 +3,12 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Mulish', sans-serif;
+  background-color: #000000;
 }
 
 /* top image */
 .top_image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://source.unsplash.com/random/1920x1080");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://source.unsplash.com/collection/49492594/1600x900");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +23,7 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #FFFFFF;
 }
 
 .typewrite{
@@ -61,8 +62,8 @@ body, html {
 
 /* button */
 .clickme{
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #000000;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -80,11 +81,13 @@ hr{
 /* heading */
 .heading{
   text-align: center;
+  color: #FFFFFF;
 }
 
 /* content text */
 .text{
   font-size: 20px;
+  color: #858585;
 }
 
 .text_margin{
@@ -123,13 +126,13 @@ hr{
 /* skill bar */
 .skill_background{
   width: 100%;
-  background-color: #0000001A;
-  border-radius: 3px; 
+  background-color: #FFFFFF41;
+  border-radius: 1px; 
 }
 
 .skills_bar{
   padding: 5px;
-  border-radius: 3px; 
+  border-radius: 1px; 
 }
   
 .skill1{
@@ -170,7 +173,7 @@ hr{
 .social_icons{
   height: 0px;
   width: 50px;
-  border-radius: 50px;
+  border-radius: 100px;
   text-align: left;
 }
   
@@ -189,31 +192,19 @@ hr{
 }
   
 .fa-linkedin-square{
-  color: black;
+  color: #007BB5;
 }
   
 .fa-facebook-official{
-  color: black;
+  color: #3B5998;
 }
   
 .fa-instagram{
-  color: black;
-}
-  
-.fa-telegram{
-  color: black;
+  color: #125688;
 }
   
 .fa-github{
-  color: black;
-}
-  
-.fa-reddit{
-  color: black;
-}
-  
-.fa-snapchat-ghost{
-  color: black;
+  color: #2C4762;
 }
   
 /* end text */
@@ -221,4 +212,5 @@ hr{
   font-size: 14px;
   text-align: center;
   margin-bottom: 40px;
+  color: #FFFFFF;
 }
